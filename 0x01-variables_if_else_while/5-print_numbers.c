@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <time.h>
-#include <stdlib.h>
 /**
  * main - main block
  * Description: print all single digit numbers fo base 10
@@ -9,14 +7,10 @@
  */
 int main(void);
 {
-	char c = '0';
+	int a;
 
-	while (c <= '9');
-	{
-		putchar(c);
-		c++;
-	}
-
+	for (a = 0; a < 10; a++)
+		printf("%d", a);
 	putchar('\n');
 	return (0);
 }
