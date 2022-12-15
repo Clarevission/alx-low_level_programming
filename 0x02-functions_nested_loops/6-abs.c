@@ -2,12 +2,26 @@
 
 /**
  * _abs - return abs value
- * @n: number to check
- * Return: 0 or 1
+ *
+ * @n: The int to print
+ * Return: ALways 0.
  */
+
 int_abs(int n)
 {
+	if (n < 0)
+	{
+		return (n * (-1));
+	}
 
-return (n >= 0 ? n : n * -1);
+	else if (n == 0)
+	{
+		return (0);
+	}
 
+	else
+	{
+		return (n);
+	}
+}
 }
