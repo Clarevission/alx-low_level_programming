@@ -2,41 +2,32 @@
 
 /**
  * main - entry point
- *
- * Return: void
+ * Return: Always 0
  */
-
 int main(void)
 {
+int n;
 
-int p = 100;
-int i;
-
-i = 1;
-while (i <= p)
+n = 1;
+printf("%d", n);
+for (n = 2; n <= 100; n++)
 {
-if (i % 3 == 0 && i % 5 == 0)
-printf("FizzBuzz ");
+if ((n % 3 == 0) && (n % 5 == 0))
+printf(" FizzBuzz");
 }
-
-else if (i % 3 == 0)
+else if (n % 3 == 0)
 {
-printf("Fizz ");
+printf(" Fizz");
 }
-
-else if (i % 5 == 0)
+else if (n % 5 == 0)
 {
-if (i < p)
-printf("Buzz ");
-
+printf(" Buzz");
+}
 else
 {
-printf("%i ", i);
+printf(" %d", n);
 }
-
-i++;
-
 }
-printf('\n');
+printf("\n");
 return (0);
 }
