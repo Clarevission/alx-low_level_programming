@@ -7,7 +7,7 @@
  * Return: ALways 0.
  */
 
-int_abs(int n)
+int _abs(int n)
 {
 	if (n < 0)
 	{
@@ -23,5 +23,4 @@ int_abs(int n)
 	{
 		return (n);
 	}
-}
 }
