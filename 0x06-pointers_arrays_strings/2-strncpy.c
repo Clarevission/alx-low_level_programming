@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _strncpy - function that copies strings with n
  * @dest: copy to
@@ -6,6 +7,7 @@
  * @n: numbers of char to copy
  * Retrun: dest
  */
+
 char *_strncpy(char *dest, char *src, int n)
 {
 	int i = 0;
