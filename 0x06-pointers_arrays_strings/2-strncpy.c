@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _strncpy - function that copies strings with n
  * @dest: copy to
