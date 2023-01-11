@@ -8,7 +8,6 @@
  *
  * Return: Pointer to the new string created
  */
-
 char *argstostr(int ac, char **av)
 {
 	int i, j, k, len;
