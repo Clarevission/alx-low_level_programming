@@ -3,7 +3,7 @@
 
 /**
  * **alloc_grid - creates a two dimentional array of integers
- * @width - width of the matrix
+ * @width: width of the matrix
  * @height: height of the matrix
  *
  * Return: pointer to the matrix created
