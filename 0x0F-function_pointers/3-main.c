@@ -7,7 +7,6 @@
  *
  * Return: Always 0 (success)
  */
-
 int main(int argc, char *argv[])
 {
 	int arg1, arg2, result;
